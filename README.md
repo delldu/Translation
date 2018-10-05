@@ -6,6 +6,7 @@
 
 1. `Put corpus(en-zh.txt) under data directory.`
 `Sentences are splited by "\t", for examples:`
+
 	`do you think we look young enough to blend in at a high school ?	你们 觉得 我们 看起来 够 年轻 溜进 高中 吗 ？`
 	`hi , honey . i guess you 're really tied up in meetings .	嗨 ， 亲爱 的 。 你 现在 肯定 忙 着 开会 呢 。`
 	`because you want to start a family before you hit the nursing home .	因为 你 想 在 进 养老院 前 娶妻生子 。`
