@@ -37,7 +37,7 @@ Evaluation
 
 Translate
 ----
-`python translate "english sentence"`
+`python translate.py "english sentence"`
 
 
 
