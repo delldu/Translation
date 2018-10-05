@@ -24,7 +24,7 @@ MAX_LENGTH = 32
 
 
 def parse_arguments():
-    p = argparse.ArgumentParser(description='Evaluating Translation Model')
+    p = argparse.ArgumentParser(description='Translate Sentence')
     p.add_argument(
         '-model',
         type=str,
