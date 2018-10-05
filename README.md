@@ -1,8 +1,13 @@
-# Translation
+Translation
+====
 
 **Translate English to Chinese with seq2seq  + attention model.**
 
-## Training
+![](model.png)
+
+
+Training
+----
 
 1. `Put corpus(en-zh.txt) under data directory.`
 `Sentences are splited by "\t", for examples:`
@@ -19,20 +24,25 @@
 	
 	`so that no parent has to go through what i 've known .	为了 不让 别的 父母 经历 我 的 遭遇 。`
 
+
 2. `python train.py`
 
 
-## Evaluation
 
- python eval.py
+Evaluation
+----
+`python eval.py`
 
 
-# Translate
 
+Translate
+----
 `python translate "english sentence"`
 
 
-## Requirements
+
+Requirements
+----
 
 - Python 3.6
 - Pytorch 0.4.0
@@ -40,4 +50,7 @@
 
 
 
+Reference
+----
 
+[Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)
